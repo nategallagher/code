@@ -21,7 +21,8 @@
  
 import hashlib
 import tarfile
- 
+import re
+
 def tarsum(input_file, hash, output_file):
         """
         input_file  - A FILE object to read the tar file from.
